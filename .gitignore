@@ -1,0 +1,229 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+backend/.env.example
+frontend/.env
+frontend/.env.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Docker
+.dockerignore
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+ssl/
+
+# Uploads and user data
+uploads/
+data/user/
+data/abnovobench/logs/
+data/abnovobench/ckpt/
+
+# Sensitive configuration
+config/production.json
+config/staging.json
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files
+test_*.js
+debug_*.js
+verify-*.js
+
+# Development files
+frontend-dev.log
+backend-dev.log
+frontend-new.log
+frontend-bg.log
+frontend-bun.log
+backend-test.log
+server.log
+*.log
+
+# Scripts that might contain sensitive data
+fix-*.sh
+restart-*.sh
+start-*.sh
+deploy-*.sh
+production-*.sh
+final-*.sh
+quick-*.sh
+check-*.sh
+diagnose-*.sh
+final-check.sh
+final-deploy.sh
+check-services.sh
+start-services.sh
+quick-deploy.sh
+diagnose-and-fix.sh
+deploy.sh
+fix-404-errors.sh
+start-dev-mode.sh
+fix-nginx.sh
+restart-frontend-final.sh
+fix-bun-frontend.sh
+production-check.sh
+
+# Data files (keep structure but exclude actual data)
+data/assembly/*.csv
+data/impact/*.csv
+data/csv/*.csv
+data/mgf/*
+data/depth/*.csv
+
+# Keep data directory structure but exclude content
+data/abnovobench/code/
+data/abnovobench/logs/
+data/abnovobench/ckpt/
+
+# Example data files (create these for reference)
+!data/assembly/assembly_scores.example.csv
+!data/impact/NoiseFactorANDMissingcleavagesVSRecall.example.csv
+!data/csv/efficiency.example.csv
+!data/mgf/example.mgf
+!data/depth/example.csv 
+
+# macOS generated files
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?                       
+._*                        
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

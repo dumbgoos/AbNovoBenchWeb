@@ -1,0 +1,10 @@
+Tool,AA_Recall,Peptide_Recall,Noise_Factor,Missing_Cleavages
+CasanovoV1,0.7532,0.6031,0,0
+CasanovoV1,0.7311,0.5558,0.1,0
+CasanovoV1,0.6946,0.5418,0.2,0
+CasanovoV2,0.7311,0.5558,0,0
+CasanovoV2,0.6946,0.5418,0.1,0
+CasanovoV2,0.5979,0.3759,0.2,0
+ContraNovo,0.7860,0.6696,0,0
+ContraNovo,0.7300,0.6453,0.1,0
+ContraNovo,0.6946,0.5418,0.2,0 

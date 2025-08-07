@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <h1>Documentation</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="#">Getting Started</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">API Reference</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <header>
+                <h2>Getting Started</h2>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search documentation...">
+                </div>
+            </header>
+
+            <div class="documentation">
+                <section class="doc-section">
+                    <h3>Introduction</h3>
+                    <p>Welcome to our documentation. This guide will help you get started with our platform and show you
+                        how to use its features effectively.</p>
+
+                    <div class="info-box">
+                        <h4>Quick Tip</h4>
+                        <p>You can use keyboard shortcuts to navigate through our documentation more efficiently.</p>
+                    </div>
+                </section>
+
+                <section class="doc-section">
+                    <h3>Installation</h3>
+                    <p>To install our package, use the following command:</p>
+                    <div class="code-block">
+                        <pre><code>npm install our-package</code></pre>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                </section>
+
+                <section class="doc-section">
+                    <h3>Basic Usage</h3>
+                    <p>Here's how to implement our basic features:</p>
+                    <div class="code-block">
+                        <pre><code>import { feature } from 'our-package';
+
+const result = feature.initialize({
+  option1: 'value',
+  option2: true
+});</code></pre>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

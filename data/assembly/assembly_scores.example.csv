@@ -1,0 +1,11 @@
+Algorithm,Antibody,Tool,Score,Region
+CasanovoV1,mAb1,Fusion,1.0000,whole
+CasanovoV1,mAb1,Stitch,0.9834,whole
+CasanovoV1,mAb2,Fusion,1.0000,whole
+CasanovoV1,mAb2,Stitch,0.9819,whole
+CasanovoV2,mAb1,Fusion,1.0000,whole
+CasanovoV2,mAb1,Stitch,0.9895,whole
+ContraNovo,mAb1,Fusion,1.0000,whole
+ContraNovo,mAb1,Stitch,0.9849,whole
+InstaNovo,mAb1,Fusion,0.9985,whole
+InstaNovo,mAb1,Stitch,0.9849,whole 
